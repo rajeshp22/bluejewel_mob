@@ -144,7 +144,8 @@ const SignupScreen = () => {
           <Text style={{ textAlign: 'center', fontSize: 16, fontWeight: 'bold' }}>Register</Text>
         </Pressable>
 
-        <Pressable onPress={() => navigation.goBack()} style={{ marginTop: 10 }}>
+        {/* <Pressable onPress={() => navigation.goBack()} style={{ marginTop: 10 }}> */}
+      <Pressable onPress={() => navigation.navigate('Login')} style={{marginTop:10}}>
           <Text style={{ textAlign: 'center', fontSize: 16, color: 'gray' }}>Already have an account?Sing In</Text>
         </Pressable>
 
