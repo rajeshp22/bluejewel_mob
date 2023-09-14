@@ -93,9 +93,12 @@ const LoginScreen = () => {
       </Pressable>
 
       </KeyboardAvoidingView>
+
+
     </SafeAreaView>
-  );
-};
+    
+    );
+  };
 
 export default LoginScreen;
 
